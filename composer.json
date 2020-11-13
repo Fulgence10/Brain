@@ -6,11 +6,10 @@
     "license": "MIT",
     "autoload": {
         "files": [
-            "./Brain/src/Helpers/functions.php"
+            "./src/Helpers/functions.php"
         ],
         "psr-4": {
-            "Src\\": "src/",
-            "Brain\\": "Brain/src/"
+            "Brain\\": "src/"
         }
     },
     "require": {
